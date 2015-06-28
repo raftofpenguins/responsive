@@ -22,6 +22,14 @@ div div div {
 	padding-bottom: 0.4em;
 }
 
+@media screen and (max-width: 768px) {
+	#page {
+	position: relative;
+	margin: 20px;
+	width: auto;
+	}
+}
+
 	#header {
 		width: 97.9166666666667%;
 		height: 8.75em;
@@ -57,16 +65,30 @@ div div div {
 			margin-bottom: 0.4em
 		}
 
+		@media screen and (max-width: 768px) {
+			.threePics {
+				width: 100%;
+				float: none;
+			}
+
+			#pic1 {
+				margin-right: 0px;
+			}
+			#pic2 {
+				margin-right: 0px;
+			}
+		}
+
 			#pic1 {
 				margin-right: 2.12765957446809%;
 			}
 
 			#pic2 {
-				
+				margin-right: 2.12765957446809%;	
 			}
 
 			#pic3 {
-				margin-left: 2.12765957446809%;
+				/*margin-left: 2.12765957446809%;*/
 			}
 
 			#footer {
