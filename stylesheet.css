@@ -25,7 +25,7 @@ div div div {
 @media screen and (max-width: 520px) {
 	#page {
 	position: relative;
-	margin: 20px;
+	margin: 0px;
 	width: auto;
 	}
 }
